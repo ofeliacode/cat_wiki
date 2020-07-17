@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
 
-    var cats: [Cat] = [Cat(kind: "british")]
+    var cats: [Cat] = [Cat(kind: "british", description: "Description about the british cat")]
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -10,4 +10,5 @@ import UIKit
 
 struct Cat {
     var kind: String
+    var description: String
 }

@@ -73,14 +73,8 @@
                                     <constraint firstAttribute="height" constant="250" id="FJe-av-hmX"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dS-RK-DJN">
-                                <rect key="frame" x="0.0" y="388" width="414" height="32"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About British" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yre-Dc-bzg">
-                                <rect key="frame" x="0.0" y="448" width="414" height="26.5"/>
+                                <rect key="frame" x="0.0" y="360" width="414" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -88,13 +82,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="yre-Dc-bzg" firstAttribute="top" secondItem="5dS-RK-DJN" secondAttribute="bottom" constant="28" id="3ZS-Zx-t26"/>
                             <constraint firstItem="A00-MF-Ddp" firstAttribute="trailing" secondItem="yre-Dc-bzg" secondAttribute="trailing" id="Riu-7Y-oj6"/>
                             <constraint firstItem="yre-Dc-bzg" firstAttribute="leading" secondItem="A00-MF-Ddp" secondAttribute="leading" id="ZmA-Fa-t1a"/>
-                            <constraint firstItem="A00-MF-Ddp" firstAttribute="trailing" secondItem="5dS-RK-DJN" secondAttribute="trailing" id="cF3-zD-EAM"/>
                             <constraint firstItem="4UZ-I5-KTc" firstAttribute="centerX" secondItem="A00-MF-Ddp" secondAttribute="centerX" id="mGK-zo-xPc"/>
-                            <constraint firstItem="5dS-RK-DJN" firstAttribute="leading" secondItem="A00-MF-Ddp" secondAttribute="leading" id="nRq-YQ-NTB"/>
-                            <constraint firstItem="5dS-RK-DJN" firstAttribute="top" secondItem="4UZ-I5-KTc" secondAttribute="bottom" constant="42" id="sbk-N8-g32"/>
+                            <constraint firstItem="yre-Dc-bzg" firstAttribute="top" secondItem="4UZ-I5-KTc" secondAttribute="bottom" constant="14" id="tUd-EL-Ag4"/>
                             <constraint firstItem="4UZ-I5-KTc" firstAttribute="top" secondItem="A00-MF-Ddp" secondAttribute="top" constant="8" id="uHO-TB-chl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="A00-MF-Ddp"/>
@@ -103,7 +94,6 @@
                     <connections>
                         <outlet property="descriptionLabel" destination="yre-Dc-bzg" id="CJs-4K-YWY"/>
                         <outlet property="imageView" destination="4UZ-I5-KTc" id="dQu-Op-DfR"/>
-                        <outlet property="titleLabel" destination="5dS-RK-DJN" id="F0C-MS-9Li"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zr1-vo-ALi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
