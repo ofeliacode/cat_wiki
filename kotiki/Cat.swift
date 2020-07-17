@@ -8,12 +8,6 @@
 
 import UIKit
 
-class Cats {
-    var image: UIImage
+struct Cat {
     var kind: String
-    
-    init(kind:  String) {
-        self.kind = kind
-        image = UIImage(named: self.kind)!
-    }
 }

@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="1008.6956521739131" y="-90.401785714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Cat View Controller-->
         <scene sceneID="oJh-FP-mJs">
             <objects>
-                <viewController id="l6J-oY-rPk" sceneMemberID="viewController">
+                <viewController id="l6J-oY-rPk" customClass="CatViewController" customModule="kotiki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rmt-aC-bGz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,7 @@
                                 <rect key="frame" x="91" y="102" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="British" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dS-RK-DJN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="asd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dS-RK-DJN">
                                 <rect key="frame" x="0.0" y="394" width="414" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -89,6 +89,11 @@
                         <viewLayoutGuide key="safeArea" id="A00-MF-Ddp"/>
                     </view>
                     <navigationItem key="navigationItem" id="dSe-gi-eDq"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="yre-Dc-bzg" id="CJs-4K-YWY"/>
+                        <outlet property="imageView" destination="4UZ-I5-KTc" id="dQu-Op-DfR"/>
+                        <outlet property="titleLabel" destination="5dS-RK-DJN" id="F0C-MS-9Li"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zr1-vo-ALi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

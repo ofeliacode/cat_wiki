@@ -10,12 +10,22 @@ import UIKit
 
 class CatViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+
+    var cat: Cat?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if let cat = self.cat {
+            self.imageView.image = UIImage(named: cat.kind)
+            self.titleLabel.text = cat.kind.capitalized
+        }
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
